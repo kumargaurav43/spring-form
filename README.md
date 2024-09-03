@@ -19,18 +19,18 @@ Postman
 
 **Setup and Installation**
 1. Clone the Repository:
-    bash command
-    git clone https://github.com/kumargaurav43/spring-form.git
-    cd spring-form
+   a. bash command
+   b.git clone https://github.com/kumargaurav43/spring-form.git
+   c.cd spring-form
 
 3. Open the Project in STS:
-    Launch Spring Tool Suite.
-    Go to File -> Import -> Existing Maven Projects.
-    Select the cloned project directory and click Finish.
+    a.Launch Spring Tool Suite.
+    b.Go to File -> Import -> Existing Maven Projects.
+    c.Select the cloned project directory and click Finish.
    
 4. Configure MongoDB:
-    Make sure MongoDB is installed and running on your local machine.
-    Update the application.properties or application.yml file with your MongoDB connection details:
+    a.Make sure MongoDB is installed and running on your local machine.
+    b.Update the application.properties or application.yml file with your MongoDB connection details:
      
     spring.data.mongodb.uri=mongodb://localhost:27017/your-database-name
    
